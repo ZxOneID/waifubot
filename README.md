@@ -17,3 +17,5 @@ Using windows=
 -cd waifubot,
 -npm install,
 -npm start,
+
+Change https://github.com/ZxOneID/waifubot/blob/95a6efd731fd8b9709a1adddfb0619ed7bd01910/index.js#L4 with your bot token
