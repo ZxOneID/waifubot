@@ -1,0 +1,20 @@
+{
+  "name": "waifubot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Telegram",
+    "waifu",
+    "bot"
+  ],
+  "author": "ZxOne",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "telegraf": "^4.4.1"
+  }
+}
