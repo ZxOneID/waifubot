@@ -18,4 +18,4 @@ Using windows=
 -npm install,
 -npm start,
 
-Change https://github.com/ZxOneID/waifubot/blob/95a6efd731fd8b9709a1adddfb0619ed7bd01910/index.js#L4 with your bot token
+Change https://github.com/ZxOneID/waifubot/blob/9afc0557f6f139ee5d75e567521c66c4dd893daa/index.js#L20 with your bot token
