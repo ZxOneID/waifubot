@@ -1,7 +1,23 @@
 const { Telegraf, Markup } = require('telegraf')
 const axios = require('axios')
 
-const bot = new Telegraf('Yoour Bot Token')
+var express = require('express');
+var app = express();
+var path = require('path');
+var view = __dirname + "/views/";
+var public = __dirname + "/public/";
+
+// viewed at http://localhost:8080
+app.get('/', function(req, res) {
+    res.sendFile(path.join(view + "home.html"));
+});
+
+app.use('/', express.static(public));
+
+app.listen(8080);
+console.log('Server Start at http://localhost:8080');
+
+const bot = new Telegraf('1974667863:AAFhLfisSpt7erB9ZLrgBjA2DbN9H-ZL-sM')
 const start = Markup.inlineKeyboard([
   Markup.button.callback('Menu', 'menu'),
   Markup.button.callback('Owner', 'owner')
